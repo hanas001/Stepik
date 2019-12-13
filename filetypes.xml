@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="dataset_371_2" type="PLAIN_TEXT" />
       <mapping pattern="Stepik_1.6.py" type="PLAIN_TEXT" />
+      <mapping ext="5" type="Python" />
       <mapping ext="6" type="Python" />
     </extensionMap>
   </component>
