@@ -11,6 +11,10 @@ for i in range(a, b + 1):
     for l in range(c, d + 1):
         print (i, end = '\t')
         #print('', end='\t')
+<<<<<<< HEAD
         print (i * l, end = '\t')
 
 
+=======
+        print (i * l, end = '\t')
+>>>>>>> 95 points

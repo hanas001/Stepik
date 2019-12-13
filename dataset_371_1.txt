@@ -1,0 +1,4 @@
+Zenit;3;Spartak;1
+Spartak;1;CSKA;1
+CSKA;0;Zenit;2
+Ural Mash;2;CSKA;1
