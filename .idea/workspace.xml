@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3927210d-f2cd-4b33-ae69-cacf5e9ab38e" name="Default Changelist" comment="delete snail">
-      <change afterPath="$PROJECT_DIR$/2.6_11_v03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Stepik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Stepik.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3927210d-f2cd-4b33-ae69-cacf5e9ab38e" name="Default Changelist" comment="3.6_2 done">
+      <change afterPath="$PROJECT_DIR$/3.6_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.6_11_v02.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.6_11_v02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.6_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.6_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3.6_2">
+  <component name="RunManager" selected="Python.3.6_3">
     <configuration name="2.6_11_v02" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Stepik" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +124,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="3.6_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Stepik" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.6_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Stepik" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,9 +193,11 @@
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.2.6_11_v03" />
       <item itemvalue="Python.3.6_2" />
+      <item itemvalue="Python.3.6_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3.6_3" />
         <item itemvalue="Python.3.6_2" />
         <item itemvalue="Python.2.6_11_v03" />
       </list>
@@ -203,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608239000610</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3.6_2 done">
+      <created>1609521313363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609521313363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,29 +246,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete snail" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete snail" />
+    <MESSAGE value="3.6_2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.6_2 done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="182" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609499380816">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="182" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1609499380816" />
-    <state width="944" height="199" key="GridCell.Tab.0.bottom" timestamp="1609506345193">
+    <state width="944" height="199" key="GridCell.Tab.0.bottom" timestamp="1609531611619">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="944" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1609506345193" />
-    <state width="944" height="199" key="GridCell.Tab.0.center" timestamp="1609506345192">
+    <state width="944" height="199" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1609531611619" />
+    <state width="944" height="199" key="GridCell.Tab.0.center" timestamp="1609531611618">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="944" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1609506345192" />
-    <state width="944" height="199" key="GridCell.Tab.0.left" timestamp="1609506345191">
+    <state width="944" height="199" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1609531611618" />
+    <state width="944" height="199" key="GridCell.Tab.0.left" timestamp="1609531611618">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="944" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1609506345191" />
-    <state width="944" height="199" key="GridCell.Tab.0.right" timestamp="1609506345193">
+    <state width="944" height="199" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1609531611618" />
+    <state width="944" height="199" key="GridCell.Tab.0.right" timestamp="1609531611619">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="944" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1609506345193" />
+    <state width="944" height="199" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1609531611619" />
     <state width="944" height="199" key="GridCell.Tab.1.bottom" timestamp="1609504375034">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -263,6 +290,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="219" y="79" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1609503698312" />
+    <state x="318" y="180" key="Vcs.Push.Dialog.v2" timestamp="1609521320080">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="318" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1609521320080" />
     <state x="516" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609499253164">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
