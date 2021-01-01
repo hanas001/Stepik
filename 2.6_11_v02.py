@@ -21,21 +21,27 @@ for row, j in enumerate(matrix):
     matrix = list ( list ( x ) for x in zip ( *matrix ) )[ : :-1 ]
 
     for column, value in enumerate(matrix):
-        nextCell = ((column + 1)- matrixLength) % matrixLength
+        nextCell = ((column + 1) - matrixLength) % matrixLength
+        print (nextCell)
         if matrix[row][column] == 0 :
             # print(nextCell)
             # print(matrix[row][nextCell])
             currentNumber += 1
             matrix [ 0 ] [ column ] = currentNumber
             pprint ( matrix )
-            print(matrix[nextCell][nextCell])
-            print (nextCell)
+            #print(matrix[nextCell][nextCell])
+            #print (nextCell)
 
-            if matrix[0][column] != 0 :
-                print('Next line')
+        #if matrix[row][column] != 0 :
+            #print('Next line')
                 # currentNumber += 1
                 # currentLine += 1
                 # matrix [ currentLine ] [ column ] = currentNumber
 
+        #else:
+            #print ( 'step inside' )
+            #row += 1
+            #matrix[row][column] = currentNumber
 
-# pprint(matrix)
+
+pprint(matrix)
