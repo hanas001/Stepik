@@ -53,10 +53,11 @@ for action in range(n):     #looping the actions
 
     # pprint(matrix)
 
+    #stepping inside the matrix
     loop += 1
     minusLoop -= 1
 
-#-------------------- one loop ------------------
+#-------------------- loop ------------------
 
 
 
