@@ -12,21 +12,46 @@ for i in range(x):
 
 matrixLength = len(matrix)
 
-pprint(matrix)
+#pprint(matrix)
 
 currentNumber = 1
 currentLine = 0
-#matrix [ 0  ] [ 0 ] = 0
 
 for row, j in enumerate(matrix):
-    #print ("row", row)
+    # print ("row", row)
     print ("J", j)
-    #matrix = list ( list ( x ) for x in zip ( *matrix ) )[ : :-1 ]
-    for column in range(matrixLength):
-        nextCell = ((column) - matrixLength) % matrixLength  # next cell normalized
-        if matrix[currentLine][nextCell] == 0:
-            matrix[currentLine][nextCell] = currentNumber       # writing current number to the cell
-            currentNumber += 1      #current number increase by one
-            #currentLine, nextCell = nextCell, currentLine
+
+    nextCell = 0
+
+    while nextCell < x:                                     #while next cell is less then 5
+        # currentLine = 0
+        nextCell += 1
+        matrix[currentLine][nextCell] = currentNumber       #writing current number to the cell
+
+        print ("current line", currentLine)
+
+        currentNumber += 1                                  #current number increase by one
+
+        print("next cell", nextCell)
+
+        while nextCell == 4 and currentLine <= 4:
+
+            print ("CURRENT LINE", currentLine)
+            matrix[currentLine][nextCell] = currentNumber
+            currentLine += 1
+            currentNumber += 1
+            pprint(matrix)
+
+            while nextCell >= 0 and currentLine == 4:
+
+                # nextCell -= 1
+                print("CURRENT LINE", currentLine)
+                # if matrix[currentLine][nextCell] < currentNumber:
+                    matrix[currentLine][nextCell] = currentNumber
+                    currentNumber += 1
+                    print ("NEXT Cell", nextCell)
+                    nextCell -= 1
+
+
 
 pprint(matrix)
